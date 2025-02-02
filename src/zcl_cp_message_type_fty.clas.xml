@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CP_MESSAGE_TYPE_FTY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Message Type Factory</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>5</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>EQUIVALENCES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Relationship of the different message types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERROR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Error type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FROM_OLD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a type instance from a classic type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FROM_RAP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a type instance from a RAP type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FROM_VAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a type instance from a type-safe type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FROM_XCO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a type instance from an Extended Component type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INFORMATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Information type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SUCCESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Success type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>WARNING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warning type</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_OLD</CMPNAME>
+     <SCONAME>CX_SY_ITAB_LINE_NOT_FOUND</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Thrown when type not found (if toggled)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_OLD</CMPNAME>
+     <SCONAME>I_EXC_IF_NOT_FOUND</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Toggle exception for not found</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_OLD</CMPNAME>
+     <SCONAME>I_OLD</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Classic type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_OLD</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_RAP</CMPNAME>
+     <SCONAME>I_RAP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RAP type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_RAP</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_VAL</CMPNAME>
+     <SCONAME>I_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type-safe type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_VAL</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_XCO</CMPNAME>
+     <SCONAME>CX_SY_ITAB_LINE_NOT_FOUND</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Thrown when type not found (if toggled)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_XCO</CMPNAME>
+     <SCONAME>I_EXC_IF_NOT_FOUND</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Toggle exception for not found</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_XCO</CMPNAME>
+     <SCONAME>I_XCO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extended Component Message type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_XCO</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

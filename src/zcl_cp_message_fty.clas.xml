@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CP_MESSAGE_FTY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Message Factory</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>5</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CLONE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a new message from an existing message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLONE_XCO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a new message from an XCO message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FROM_EXCEPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a new message from an exception message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FROM_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a new message from a free text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FROM_SYSTEM_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a new message from the system structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FROM_TEXT_SYMBOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a new message from a text symbol</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CLONE</CMPNAME>
+     <SCONAME>I_MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Other message</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CLONE</CMPNAME>
+     <SCONAME>I_NEW_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type override</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CLONE</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>New copy</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CLONE_XCO</CMPNAME>
+     <SCONAME>I_MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Other message</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CLONE_XCO</CMPNAME>
+     <SCONAME>I_NEW_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type override</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CLONE_XCO</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>New copy</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_EXCEPTION</CMPNAME>
+     <SCONAME>CX_SY_MESSAGE_ILLEGAL_TEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Provided exception doesn&apos;t implement {@link IF_T100_MESSAGE}</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_EXCEPTION</CMPNAME>
+     <SCONAME>I_EXCEPTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Exception with {@link IF_T100_MESSAGE} message</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_EXCEPTION</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>New error message</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_STRING</CMPNAME>
+     <SCONAME>I_FREE_TEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text up to 200 characters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_STRING</CMPNAME>
+     <SCONAME>I_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_STRING</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>New free message</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_SYSTEM_MESSAGE</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>New system message</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_TEXT_SYMBOL</CMPNAME>
+     <SCONAME>I_PLACEHOLDER1</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Value for &apos;&amp;1&apos;</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_TEXT_SYMBOL</CMPNAME>
+     <SCONAME>I_PLACEHOLDER2</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Value for &apos;&amp;2&apos;</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_TEXT_SYMBOL</CMPNAME>
+     <SCONAME>I_PLACEHOLDER3</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Value for &apos;&amp;3&apos;</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_TEXT_SYMBOL</CMPNAME>
+     <SCONAME>I_PLACEHOLDER4</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Value for &apos;&amp;4&apos;</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_TEXT_SYMBOL</CMPNAME>
+     <SCONAME>I_TEXT_SYMBOL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text symbol text</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_TEXT_SYMBOL</CMPNAME>
+     <SCONAME>I_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FROM_TEXT_SYMBOL</CMPNAME>
+     <SCONAME>R_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>New text symbol message</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

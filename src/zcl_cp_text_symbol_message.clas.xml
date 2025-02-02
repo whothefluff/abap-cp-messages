@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CP_TEXT_SYMBOL_MESSAGE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Text Symbol Message</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>5</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates a message with a text symbol text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>T_VALUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>String with the max possible length of a Text Symbol</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>CX_SY_CONVERSION_DATA_LOSS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Thrown when text doesn&apos;t fit (if toggled)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>I_EXC_IF_DATA_LOSS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Toggle exception for text overflow</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>I_PLACEHOLDER1</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Value for variable &amp;1</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>I_PLACEHOLDER2</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Value for variable &amp;2</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>I_PLACEHOLDER3</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Value for variable &amp;3</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>I_PLACEHOLDER4</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Value for variable &amp;4</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>I_TEXT_SYMBOL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text Symbol text</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>I_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
